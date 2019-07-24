@@ -24,10 +24,10 @@ public class Lancamento {
 	private Long codigo;
 	
 	@NotNull
-	private String descricacao;
+	private String descricao;
 	
 	@NotNull
-	@Column(name="data_vecimento")
+	@Column(name="data_vencimento")
 	private LocalDate dataVencimento;
 	
 	@Column(name="data_pagamento")
@@ -58,12 +58,12 @@ public class Lancamento {
 		this.codigo = codigo;
 	}
 
-	public String getDescricacao() {
-		return descricacao;
+	public String getDescricao() {
+		return descricao;
 	}
 
-	public void setDescricacao(String descricacao) {
-		this.descricacao = descricacao;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 	public LocalDate getDataVencimento() {
