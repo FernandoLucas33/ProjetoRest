@@ -15,6 +15,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 
+
 @Entity
 @Table(name= "lancamento")
 public class Lancamento {
