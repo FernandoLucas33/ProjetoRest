@@ -22,7 +22,7 @@ public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 	@SuppressWarnings("deprecation")
 	@Bean
 	public PasswordEncoder passwordEncoder() {
-		return NoOpPasswordEncoder.getInstance();
+		return NoOpPasswordEncoder.getInstance();//verificar o erro depois
 		//return	DelegatingPasswordEncoder
 	}
 
