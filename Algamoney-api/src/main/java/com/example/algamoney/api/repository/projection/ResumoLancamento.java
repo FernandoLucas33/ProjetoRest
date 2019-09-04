@@ -28,6 +28,7 @@ public class ResumoLancamento {
 		this.categoria = categoria;
 		this.pessoa = pessoa;
 	}
+	
 	public Long getCodigo() {
 		return codigo;
 	}
